@@ -1,0 +1,16 @@
+#!/bin/bash
+cat <<EOL >> README.md
+
+## Examples
+
+### Example 1: Running the main script
+\`\`\`bash
+python src/main.py
+\`\`\`
+
+### Example 2: Running tests
+\`\`\`bash
+pytest tests/
+\`\`\`
+EOL
+echo "Examples section added to README.md."
